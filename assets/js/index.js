@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', function () {
             openMenu();
         }
     });
+    document.querySelectorAll('.menu-list a').forEach(link => {
+        link.addEventListener("click", closeMenu);
+    });
     menuBg.addEventListener("click", function (e) {
         if (menu.classList.contains('active')) {
             closeMenu();
