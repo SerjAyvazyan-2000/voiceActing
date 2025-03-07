@@ -1147,19 +1147,47 @@
     .orders-tags--one .opportunities-tag:nth-child(4){
         order: 1;
     }
-    .orders-tags--two .opportunities-tag:nth-child(1){
-       order: 3;
-    }
     .orders-tags--two .opportunities-tag:nth-child(4){
         order: 4;
     }
 
-    .orders-tags--tree .opportunities-tag:nth-child(4){
-        order: 3;
+    .orders-tags--tree .opportunities-tag:nth-child(3){
+        order: 4;
     }
     .orders-tags--tree .opportunities-tag:nth-child(2){
         order: 2;
     }
+    .orders-tags--for .opportunities-tag:nth-child(2){
+        order: 2;
+    }
+    .orders-tags--five .opportunities-tag:nth-child(1){
+        order: 3;
+    }
+
+    .orders-tags--five .opportunities-tag:nth-child(3){
+        order:4;
+    }
+    .orders-tags--five .opportunities-tag:nth-child(4){
+        order:1;
+    }
+    .orders-tags--five .opportunities-tag:nth-child(2){
+        order:2;
+    }
+
+    .orders-tags--six .opportunities-tag:nth-child(1){
+        order:2;
+    }
+
+    .orders-tags--six .opportunities-tag:nth-child(3){
+        order:1;
+    }
+    .orders-tags--six .opportunities-tag:nth-child(4){
+        order:3;
+    }
+    .orders-tags--six .opportunities-tag:nth-child(2){
+        order:4;
+    }
+
     .icon-flower {
         font-size: 12px;
     }
