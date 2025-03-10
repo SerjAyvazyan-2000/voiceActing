@@ -1,8 +1,7 @@
 
 .footer {
-    /*padding: 80px 0 228px 0 ;*/
-    /*background: var(--gradient-gray2);*/
     border-radius: 48px 48px 0 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 18.5%, #25143E 100%);
     position: relative;
 
 }
@@ -160,6 +159,10 @@
     .footer-clue {
         margin-top: 24px;
     }
+    .footer {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 18.5%, #25143E 150%);
+
+    }
 
 }
 
@@ -199,6 +202,8 @@
     .footer-menu-item:nth-child(4){
         order: 4;
     }
+
+
 }
 
 @media (max-width: 467px) {
